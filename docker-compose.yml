@@ -1,0 +1,10 @@
+version: "3.6"
+services:
+  yevents:
+    build:
+      context: .
+    ports:
+      - "8080:8080"
+    volumes:
+      - "./:/app"
+      - "/app/node_modules"
