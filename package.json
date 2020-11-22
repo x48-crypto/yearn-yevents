@@ -4,7 +4,9 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "start": "node server"
   },
   "author": "",
   "license": "ISC",
@@ -23,10 +25,6 @@
   "plugins": [
     "prettier"
   ],
-  "scripts": {
-    "lint": "eslint .",
-    "start": "node server"
-  },
   "devDependencies": {
     "eslint": "^7.13.0",
     "prettier": "^2.0.5"
